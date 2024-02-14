@@ -9,4 +9,7 @@ export class ExploreContainerComponent {
 
   @Input() name?: string;
 
+  testingClick(e: Event){
+    console.log(e);
+  }
 }
