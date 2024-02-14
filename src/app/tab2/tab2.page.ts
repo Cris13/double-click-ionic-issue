@@ -9,4 +9,7 @@ export class Tab2Page {
 
   constructor() {}
 
+  click(s: string, ev: Event) {
+    console.log("clicked on ", s, ev);
+  }
 }
